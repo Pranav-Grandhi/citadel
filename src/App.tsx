@@ -23,7 +23,7 @@ const App = () => {
             const target = e.target as typeof e.target & {
               city: { value: string };
             };
-            if (state.guesses.length < NUMBER_OF_GUESSES)
+            if (state.guesses.length < NUMBER_OF_GUESSES && state.gameState !== "won")
               state.addGuess(target.city.value);
           }}
         >
