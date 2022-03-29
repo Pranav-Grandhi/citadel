@@ -1,8 +1,7 @@
 import create from "zustand";
 import { persist } from "zustand/middleware";
-import { getRandomCity, computeGuess } from "./city-utils";
-
-export const NUMBER_OF_GUESSES = 6;
+import { getRandomCity, computeGuess } from "./city";
+import { NUMBER_OF_GUESSES } from "./constants";
 
 export enum GuessState {
   Miss,
@@ -15,7 +14,7 @@ interface GuessListItem {
 }
 
 interface StoreState {
-  answer: String;
+  answer: { name: String; context: String };
   guesses: GuessListItem[];
   gameState: "playing" | "won" | "lost";
   addGuess(guess: string): void;
@@ -25,10 +24,8 @@ export const useStore = create<StoreState>(
   persist(
     (set, get) => {
       const addGuess = (guess: string) => {
-        const result = computeGuess(guess, get().answer);
-
-        const guesses = get().guesses.concat({ guess, result })
-
+        const result = computeGuess(guess, get().answer.name);
+        const guesses = get().guesses.concat({ guess, result });
         const didWin = result === GuessState.Match ? true : false;
 
         set({
@@ -45,7 +42,6 @@ export const useStore = create<StoreState>(
         answer: getRandomCity(),
         guesses: [],
         gameState: "playing",
-        keyboardLetterState: {},
         addGuess,
       };
     },
