@@ -1,43 +1,43 @@
 {
   "cities": [
     {
-      "names": ["NY", "New York"],
-      "context": "This city wa the first capital of the United States after the Constitution was ratified in 1788."
+      "name": "New York",
+      "context": "This city was the first capital of the United States after the Constitution was ratified in 1788."
     },
     {
-      "names": ["LA", "Los Angeles"],
+      "name": "Los Angeles",
       "context": "This is the only North American city to host the olympics twice."
     },
     {
-      "names": "Chicago",
+      "name": "Chicago",
       "context": "This city is home to the world's tallest building designed by a female."
     },
     {
-      "names": "Sydney",
+      "name": "Sydney",
       "context": "This city is home to one of the world's tallest steel arch bridges in the world."
     },
     {
-      "names": "Melbourne",
+      "name": "Melbourne",
       "context": "The city is home to the world's largest stained-glass ceiling."
     },
     {
-      "names": "Brisbane",
+      "name": "Brisbane",
       "context": "During WW2 this city became the busiest submarine port in the world."
     },
     {
-      "names": "Istanbul",
+      "name": "Istanbul",
       "context": "The only pan-continental city in the world situated on two continents, Europe and Asia."
     },
     {
-      "names": "London",
+      "name": "London",
       "context": "The smallest city in all of England."
     },
     {
-      "names": "Berlin",
+      "name": "Berlin",
       "context": "This city is home to the most visited zoo in all of Europe."
     },
     {
-      "names": "Dehli",
+      "name": "Dehli",
       "context": "This city is home to Asia's largest spice and wholesale fruits and vegetables market."
     }
   ]
