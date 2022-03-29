@@ -1,0 +1,34 @@
+{
+  "New York": {
+    "alternatives": ["NY"],
+    "context": "This city wa the first capital of the United States after the Constitution was ratified in 1788."
+  },
+  "Los Angeles": {
+    "alternatives": ["LA"],
+    "context": "This is the only North American city to host the olympics twice."
+  },
+  "Chiacgo": {
+    "context": "This city is home to the world's tallest building designed by a female."
+  },
+  "Sydney": {
+    "context": "This city is home to one of the world's tallest steel arch bridges in the world."
+  },
+  "Melbourne": {
+    "context": "The city is home to the world's largest stained-glass ceiling."
+  },
+  "Brisbane"" {
+    "context": "During WW2 this city became the busiest submarine port in the world."
+  },
+  "Istanbul": {
+    "context": "The only pan-continental city in the world situated on two continents, Europe and Asia."
+  },
+  "London": {
+    "context": "The smallest city in all of England."
+  },
+  "Berlin": {
+    "context": "This city is home to the most visited zoo in all of Europe."
+  },
+  "Dehli": {
+    "context": "This city is home to Asia's largest spice and wholesale fruits and vegetables market."
+  }
+}
