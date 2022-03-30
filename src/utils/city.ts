@@ -1,5 +1,5 @@
 import citiesList from "../cities.json";
-import { GuessState } from "./store";
+import { GuessState } from "./types";
 
 export function getRandomCity(): { name: string; context: string } {
   return citiesList.cities[
@@ -9,7 +9,7 @@ export function getRandomCity(): { name: string; context: string } {
 
 export function computeGuess(guess: String, answerString: String): GuessState {
   let result: GuessState;
-  if ((guess.toLowerCase() === answerString.toLowerCase())) {
+  if (guess.toLowerCase() === answerString.toLowerCase()) {
     result = GuessState.Match;
     return result;
   }
