@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer components {
-  tr:not(:last-child) {
+  tbody > tr:first-child {
+    @apply border-t border-neutral-300;
+  }
+
+  tbody > tr:not(:last-child) {
     @apply border-b border-neutral-300;
   }
 
