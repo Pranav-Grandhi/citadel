@@ -7,8 +7,8 @@ export default function GameStateOverlay() {
     <>
       {state.gameState !== "playing" ? (
         <>
-          <div className="absolute flex justify-center items-center w-full h-full bg-black bg-opacity-75">
-            <div className="z-10 absolute max-w-sm w-full px-8 py-6 rounded-3xl bg-white">
+          <div className="z-10 absolute flex justify-center items-center w-full h-full bg-black bg-opacity-75">
+            <div className="z-20 absolute max-w-sm w-full px-8 py-6 rounded-3xl bg-white">
               <div className="mb-6 pb-6 font-semibold border-b border-neutral-300 text-center">
                 {state.gameState === "won" ? (
                   <>😀 You Won!</>
