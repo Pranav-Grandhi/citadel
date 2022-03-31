@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  overflow: hidden;
+}
+
 @layer components {
   tbody > tr:first-child {
     @apply border-t border-neutral-300;
