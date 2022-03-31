@@ -11,7 +11,8 @@
     @apply border-b border-neutral-300;
   }
 
-  tr > th:first-child, td:first-child {
+  tr > th:first-child,
+  td:first-child {
     @apply border-r border-neutral-300;
   }
 
@@ -19,7 +20,38 @@
     @apply bg-neutral-200;
   }
 
-  th, td {
+  th,
+  td {
     @apply px-[14px] py-4 text-sm text-center;
   }
+}
+
+@keyframes enter {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-enter {
+  animation: enter 0.2s ease-out;
+}
+
+@keyframes leave {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+}
+
+.animate-leave {
+  animation: leave 0.15s ease-in forwards;
 }

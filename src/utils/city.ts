@@ -16,3 +16,7 @@ export function computeGuess(guess: String, answerString: String): GuessState {
   result = GuessState.Miss;
   return result;
 }
+
+export function isCityAvailable(guess: string): Boolean {
+  return citiesList.cities.some(city => city.name.toLowerCase() === guess.toLowerCase())
+}

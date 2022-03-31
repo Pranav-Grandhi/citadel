@@ -1,4 +1,5 @@
 import { useStore } from "./utils/store";
+import { Toaster } from "react-hot-toast";
 import GameStateOverlay from "./components/gamestate-overlay";
 import Header from "./components/header";
 import GameForm from "./components/game-form";
@@ -11,6 +12,7 @@ const App = () => {
 
   return (
     <>
+      <Toaster />
       <GameStateOverlay />
       <Header />
       <main className="grid grid-cols-2 min-h-screen divide-x divide-neutral-300">
