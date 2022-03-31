@@ -17,7 +17,7 @@ export default function GuessesTable() {
             {state.guesses.map((guess, key) => (
               <tr key={key}>
                 <td>{guess.guess}</td>
-                <td></td>
+                <td>{Math.round(guess.distance)}km</td>
               </tr>
             ))}
           </tbody>
