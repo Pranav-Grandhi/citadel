@@ -2,43 +2,83 @@
   "cities": [
     {
       "name": "New York",
-      "context": "This city was the first capital of the United States after the Constitution was ratified in 1788."
+      "context": "This city was the first capital of the United States after the Constitution was ratified in 1788.",
+      "coordinate": {
+        "longitude": 40.7128,
+        "latitude": -74.0060
+      }
     },
     {
       "name": "Los Angeles",
-      "context": "This is the only North American city to host the olympics twice."
+      "context": "This is the only North American city to host the olympics twice.",
+      "coordinate": {
+        "longitude": 34.0522,
+        "latitude": -118.2437
+      }
     },
     {
       "name": "Chicago",
-      "context": "This city is home to the world's tallest building designed by a female."
+      "context": "This city is home to the world's tallest building designed by a female.",
+      "coordinate": {
+        "longitude": 41.8781,
+        "latitude": -87.6298
+      }
     },
     {
       "name": "Sydney",
-      "context": "This city is home to one of the world's tallest steel arch bridges in the world."
+      "context": "This city is home to one of the world's tallest steel arch bridges in the world.",
+      "coordinate": {
+        "longitude": -33.8688,
+        "latitude": 151.2093
+      }
     },
     {
       "name": "Melbourne",
-      "context": "The city is home to the world's largest stained-glass ceiling."
+      "context": "The city is home to the world's largest stained-glass ceiling.",
+      "coordinate": {
+        "longitude": -37.8136,
+        "latitude": 144.9631
+      }
     },
     {
       "name": "Brisbane",
-      "context": "During WW2 this city became the busiest submarine port in the world."
+      "context": "During WW2 this city became the busiest submarine port in the world.",
+      "coordinate": {
+        "longitude": -27.4705,
+        "latitude": 153.0260
+      }
     },
     {
       "name": "Istanbul",
-      "context": "The only pan-continental city in the world situated on two continents, Europe and Asia."
+      "context": "The only pan-continental city in the world situated on two continents, Europe and Asia.",
+      "coordinate": {
+        "longitude": 41.0082,
+        "latitude": 28.9784 
+      }
     },
     {
       "name": "London",
-      "context": "The smallest city in all of England."
+      "context": "The smallest city in all of England.",
+      "coordinate": {
+        "longitude": 51.5072,
+        "latitude": -0.1276
+      }
     },
     {
       "name": "Berlin",
-      "context": "This city is home to the most visited zoo in all of Europe."
+      "context": "This city is home to the most visited zoo in all of Europe.",
+      "coordinate": {
+        "longitude": 52.5200,
+        "latitude": 13.4050
+      }
     },
     {
       "name": "Dehli",
-      "context": "This city is home to Asia's largest spice and wholesale fruits and vegetables market."
+      "context": "This city is home to Asia's largest spice and wholesale fruits and vegetables market.",
+      "coordinate": {
+        "longitude": 28.7041,
+        "latitude": 77.1025
+      }
     }
   ]
 }
