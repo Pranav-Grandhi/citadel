@@ -1,13 +1,9 @@
-import { useState } from "react";
-
 export default function Header() {
-  const [helpOvlerlayOpen, setHelpOverlayOpen] = useState(false);
-
   return (
     <>
-      <header className="absolute flex justify-between w-1/2 p-6 border-b border-neutral-300">
+      <header className="absolute flex justify-between w-full p-6 border-b border-neutral-300">
         <div className="font-semibold">🏰 CITADEL</div>
-        <button onSubmit={() => setHelpOverlayOpen(true)}>
+        <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
