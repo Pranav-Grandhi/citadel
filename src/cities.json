@@ -25,59 +25,107 @@
       }
     },
     {
-      "name": "Sydney",
-      "context": "This city is home to one of the world's tallest steel arch bridges in the world.",
+      "name": "Seattle",
+      "context": "",
       "coordinate": {
-        "longitude": -33.8688,
-        "latitude": 151.2093
+        "longitude": -122.3351,
+        "latitude": 47.6080
       }
     },
     {
-      "name": "Melbourne",
-      "context": "The city is home to the world's largest stained-glass ceiling.",
+      "name": "San Francisco",
+      "context": "",
       "coordinate": {
-        "longitude": -37.8136,
-        "latitude": 144.9631
+        "longitude": ,
+        "latitude": 
       }
     },
     {
-      "name": "Brisbane",
-      "context": "During WW2 this city became the busiest submarine port in the world.",
+      "name": "Portland",
+      "context": "",
       "coordinate": {
-        "longitude": -27.4705,
-        "latitude": 153.0260
+        "longitude": ,
+        "latitude": 
       }
     },
     {
-      "name": "Istanbul",
-      "context": "The only pan-continental city in the world situated on two continents, Europe and Asia.",
+      "name": "San Diego",
+      "context": "",
       "coordinate": {
-        "longitude": 41.0082,
-        "latitude": 28.9784 
+        "longitude": ,
+        "latitude": 
       }
     },
     {
-      "name": "London",
-      "context": "The smallest city in all of England.",
+      "name": "Phoenix",
+      "context": "",
       "coordinate": {
-        "longitude": 51.5072,
-        "latitude": -0.1276
+        "longitude": ,
+        "latitude": 
       }
     },
     {
-      "name": "Berlin",
-      "context": "This city is home to the most visited zoo in all of Europe.",
+      "name": "Philadelphia",
+      "context": "",
       "coordinate": {
-        "longitude": 52.5200,
-        "latitude": 13.4050
+        "longitude": ,
+        "latitude": 
       }
     },
     {
-      "name": "Delhi",
-      "context": "This city is home to Asia's largest spice and wholesale fruits and vegetables market.",
+      "name": "Dallas",
+      "context": "",
       "coordinate": {
-        "longitude": 28.7041,
-        "latitude": 77.1025
+        "longitude": ,
+        "latitude": 
+      }
+    },
+    {
+      "name": "Washington D.C",
+      "context": "",
+      "coordinate": {
+        "longitude": ,
+        "latitude": 
+      }
+    },
+    {
+      "name": "Los Vegas",
+      "context": "",
+      "coordinate": {
+        "longitude": ,
+        "latitude": 
+      }
+    },
+    {
+      "name": "Atlanta",
+      "context": "",
+      "coordinate": {
+        "longitude": ,
+        "latitude": 
+      }
+    },
+    {
+      "name": "Miami",
+      "context": "",
+      "coordinate": {
+        "longitude": ,
+        "latitude": 
+      }
+    },
+    {
+      "name": "Honolulu",
+      "context": "",
+      "coordinate": {
+        "longitude": ,
+        "latitude": 
+      }
+    },
+    {
+      "name": "Orlando",
+      "context": "",
+      "coordinate": {
+        "longitude": ,
+        "latitude": 
       }
     }
   ]
