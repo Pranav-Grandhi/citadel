@@ -1,5 +1,6 @@
-import Confetti from "react-confetti";
+import Modal from "./modal";
 import { useStore } from "../utils/store";
+import Confetti from "react-confetti";
 import useWindowDimensions from "../utils/useWindowSize";
 
 function Overlay({
@@ -12,9 +13,6 @@ function Overlay({
   return (
     <div className="z-10 absolute flex justify-center items-center w-full h-full bg-black bg-opacity-75">
       <div className="z-20 absolute max-w-sm w-full px-8 py-6 rounded-3xl bg-white">
-        <div className="mb-6 pb-6 font-semibold border-b border-neutral-300 text-center">
-          {title}
-        </div>
         <div>{children}</div>
       </div>
     </div>
@@ -32,16 +30,36 @@ export default function GameStateOverlay() {
           {state.gameState === "won" ? (
             <>
               <Confetti width={width} height={height} />
-              <Overlay title={"😀 You Won!"}>
-                The city is:{" "}
-                <span className="font-semibold">{state.answer.name}</span>
-              </Overlay>
+              <Modal
+                size="sm"
+                title={
+                  <div className="mb-6 pb-6 font-semibold border-b border-neutral-300 text-center">
+                    😀 You Won
+                  </div>
+                }
+                body={
+                  <>
+                    The city is:{" "}
+                    <span className="font-semibold">{state.answer.name}</span>
+                  </>
+                }
+              ></Modal>
             </>
           ) : state.gameState === "lost" ? (
-            <Overlay title="😢 You Lost">
-              The city is:{" "}
-              <span className="font-semibold">{state.answer.name}</span>
-            </Overlay>
+            <Modal
+              size="sm"
+              title={
+                <div className="mb-6 pb-6 font-semibold border-b border-neutral-300 text-center">
+                  😢 You Lost
+                </div>
+              }
+              body={
+                <>
+                  The city is:{" "}
+                  <span className="font-semibold">{state.answer.name}</span>
+                </>
+              }
+            />
           ) : (
             <></>
           )}
