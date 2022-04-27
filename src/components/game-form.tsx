@@ -20,7 +20,9 @@ export default function GameForm() {
             state.guesses.length < NUMBER_OF_GUESSES &&
             state.gameState !== "won" &&
             target.city.value !== "" &&
-            cityAvailable === true
+            cityAvailable === true &&
+            state.guesses.find((i) => i.guess == target.city.value) ===
+              undefined
           ) {
             state.addGuess(target.city.value);
           }
@@ -49,7 +51,7 @@ export default function GameForm() {
               </>
             ));
           }
-          if (target.city.value === "") {
+          if (target.city.value !== "") {
             toast.custom((t) => (
               <>
                 <div
@@ -70,6 +72,34 @@ export default function GameForm() {
                     />
                   </svg>
                   Cannot provide empty input
+                </div>
+              </>
+            ));
+          }
+          if (
+            state.guesses.find((i) => i.guess == target.city.value) ===
+            undefined
+          ) {
+            toast.custom((t) => (
+              <>
+                <div
+                  className={`${
+                    t.visible ? "animate-enter" : "animate-leave"
+                  } flex items-center p-4 rounded-lg border border-neutral-300 bg-white shadow`}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="mr-3 h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Cannot use previously guessed city
                 </div>
               </>
             ));

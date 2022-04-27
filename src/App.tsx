@@ -14,8 +14,8 @@ const App = () => {
       <Toaster />
       <GameStateOverlay />
       <Header />
-      <main className="flex flex-col justify-center items-center min-h-screen">
-        <div className="w-1/4">
+      <main className="flex flex-col px-5 w-full h-screen">
+        <div className="m-auto w-full max-w-sm">
           <h1 className="mb-6 font-serif font-bold text-2xl italic">
             &quot;{state.answer.context}&quot;
           </h1>
