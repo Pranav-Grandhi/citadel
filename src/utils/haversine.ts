@@ -1,3 +1,5 @@
+// Haverise formula which calculates the distance between two coordinate points
+// Returns distance in km
 export default function haversine(
   lat1: number,
   lon1: number,

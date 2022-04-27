@@ -26,7 +26,7 @@
     },
     {
       "name": "Seattle",
-      "context": "",
+      "context": "This city opened one of the first gas stations in the entire world in 1907.",
       "coordinate": {
         "longitude": -122.3351,
         "latitude": 47.6080
@@ -36,96 +36,88 @@
       "name": "San Francisco",
       "context": "The United Nations Charter was drafted and ratified in 1945 in this city.",
       "coordinate": {
-        "longitude": ,
-        "latitude": 
+        "longitude": -122.4194,
+        "latitude": 37.7749
       }
     },
     {
       "name": "Portland",
       "context": "This city is home to world's smallest park.",
       "coordinate": {
-        "longitude": ,
-        "latitude": 
-      }
-    },
-    {
-      "name": "San Diego",
-      "context": "",
-      "coordinate": {
-        "longitude": ,
-        "latitude": 
-      }
-    },
-    {
-      "name": "Phoenix",
-      "context": "",
-      "coordinate": {
-        "longitude": ,
-        "latitude": 
-      }
-    },
-    {
-      "name": "Philadelphia",
-      "context": "",
-      "coordinate": {
-        "longitude": ,
-        "latitude": 
-      }
-    },
-    {
-      "name": "Dallas",
-      "context": "",
-      "coordinate": {
-        "longitude": ,
-        "latitude": 
-      }
-    },
-    {
-      "name": "Washington D.C",
-      "context": "",
-      "coordinate": {
-        "longitude": ,
-        "latitude": 
+        "longitude": -122.6784,
+        "latitude": 45.5152
       }
     },
     {
       "name": "Los Vegas",
       "context": "This city is host to the United States' largest bronze statue.",
       "coordinate": {
-        "longitude": ,
-        "latitude": 
+        "longitude": -115.1398,
+        "latitude": 36.1699
       }
     },
     {
       "name": "Atlanta",
       "context": "This city is the only city in North America to have been destroyed as an act of war.",
       "coordinate": {
-        "longitude": ,
-        "latitude": 
+        "longitude": -84.3880,
+        "latitude": 33.7490
       }
     },
     {
       "name": "Miami",
       "context": "The largest collection of Art Deco architecture in the US is in this city.",
       "coordinate": {
-        "longitude": ,
-        "latitude": 
+        "longitude": -80.1918,
+        "latitude": 25.1716
       }
     },
     {
       "name": "Honolulu",
       "context": "This city is home to the only royal palace in the U.S.",
       "coordinate": {
-        "longitude": ,
-        "latitude": 
+        "longitude": -157.8583,
+        "latitude": 21.3069
       }
     },
     {
       "name": "Orlando",
       "context": "This city was the most visited city in the world in 2015.",
       "coordinate": {
-        "longitude": ,
-        "latitude": 
+        "longitude": -81.3789,
+        "latitude": 28.5384
+      }
+    },
+    {
+      "name": "San Diego",
+      "context": "This one of the two places in the world where the Torrey pine tree grows.",
+      "coordinate": {
+        "longitude": -117.1611,
+        "latitude": 32.7157
+      }
+    },
+    {
+      "name": "Philadelphia",
+      "context": "This city is home to the oldest zoo in the U.S.",
+      "coordinate": {
+        "longitude": -75.1652,
+        "latitude": 39.9526
+      }
+    },
+    {
+      "name": "Dallas",
+      "context": "German chocolate in fact comes from this city.",
+      "coordinate": {
+        "longitude": -96.7970,
+        "latitude": 32.7767
+      }
+    },
+    {
+      "name": "Washington D.C",
+      "context": "This city is home to the world's largest city.",
+      "coordinate": {
+        "longitude": -77.0369,
+        "latitude": 38.9072
       }
     }
   ]
