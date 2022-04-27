@@ -49,7 +49,7 @@ export default function Header() {
       ) : (
         <></>
       )}
-      <header className="absolute flex justify-between w-full p-6 border-b border-neutral-300">
+      <header className="flex justify-between w-full p-6 border-b border-neutral-300">
         <div className="font-semibold">🏰 CITADEL</div>
         <button onClick={() => setHelpOverlay(!helpOverlay)}>
           <svg
