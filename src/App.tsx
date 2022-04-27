@@ -13,16 +13,21 @@ const App = () => {
     <>
       <Toaster />
       <GameStateOverlay />
-      <Header />
-      <main className="flex flex-col justify-center items-center min-h-screen">
-        <div className="w-1/4">
-          <h1 className="mb-6 font-serif font-bold text-2xl italic">
-            &quot;{state.answer.context}&quot;
-          </h1>
-          <GameForm />
-          <GuessesTable />
+      <div className="flex flex-col h-screen">
+        <Header />
+        <main className="flex flex-col px-5 w-full h-full">
+          <div className="m-auto w-full max-w-sm">
+            <h1 className="mb-6 font-serif font-bold text-2xl italic">
+              &quot;{state.answer.context}&quot;
+            </h1>
+            <GameForm />
+            <GuessesTable />
+          </div>
+        </main>
+        <div className="py-6 border-t border-neutral-300 text-center">
+          Made by <b>Pranav Grandhi</b>
         </div>
-      </main>
+      </div>
     </>
   );
 };

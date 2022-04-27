@@ -1,5 +1,11 @@
 import { useStore } from "../utils/store";
 
+/**
+ * | City | Distance | 
+ * | ---- | -------- |
+ * | .... | ........ | ... 
+ */
+
 export default function GuessesTable() {
   const state = useStore();
 
