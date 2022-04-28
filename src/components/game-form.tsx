@@ -67,11 +67,11 @@ export default function GameForm() {
           if (!cityAvailable && target.city.value !== "") {
             CreateToast({ message: "Not in city list" });
           }
-          if (target.city.value !== "") {
+          if (target.city.value === "") {
             CreateToast({ message: "Cannot provide empty input" })
           }
           if (
-            state.guesses.find((i) => i.guess == target.city.value) ===
+            state.guesses.find((i) => i.guess == target.city.value) !==
             undefined
           ) {
             CreateToast({ message: "Cannot use previously gussed city" });
