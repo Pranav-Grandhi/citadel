@@ -24,9 +24,6 @@ const App = () => {
             <GuessesTable />
           </div>
         </main>
-        <div className="py-6 border-t border-neutral-300 text-center">
-          Made by <b>Pranav Grandhi</b>
-        </div>
       </div>
     </>
   );
