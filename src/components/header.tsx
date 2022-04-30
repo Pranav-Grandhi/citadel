@@ -38,7 +38,8 @@ export default function Header() {
               <p className="mb-4">
                 Once you guess a city it will be added to the guesses table as
                 long as it is not previously used, in our list of cities, not
-                empty or your game is over.
+                empty or your game is over. The distance column in the table
+                shows how far the city you guessed is from the correct city.
               </p>
               <p>
                 <b>NOTE:</b> Cities are currently U.S. only!
