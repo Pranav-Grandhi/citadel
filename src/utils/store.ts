@@ -2,7 +2,7 @@ import create from "zustand";
 import { persist } from "zustand/middleware";
 import { NUMBER_OF_GUESSES } from "./constants";
 import { GuessState, StoreState } from "./types";
-import { getRandomCity, computeGuess, getSpecificCity } from "./city";
+import { getCity, computeGuess } from "./city";
 import haversine from "./haversine";
 
 export const useStore = create<StoreState>(
@@ -11,8 +11,8 @@ export const useStore = create<StoreState>(
       const addGuess = (guess: string) => {
         const result = computeGuess(guess, get().answer.name);
         const distance = haversine(
-          getSpecificCity(guess).coordinate.latitude,
-          getSpecificCity(guess).coordinate.longitude,
+          getCity("specific", guess).coordinate.latitude,
+          getCity("specific", guess).coordinate.longitude,
           get().answer.coordinate.latitude,
           get().answer.coordinate.longitude,
         );
@@ -30,7 +30,7 @@ export const useStore = create<StoreState>(
       };
 
       return {
-        answer: getRandomCity(),
+        answer: getCity("random"),
         guesses: [],
         gameState: "playing",
         addGuess,
